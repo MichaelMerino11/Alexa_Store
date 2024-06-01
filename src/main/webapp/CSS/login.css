@@ -1,0 +1,74 @@
+/* Estilos para el contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para la tarjeta de inicio de sesión */
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+.login-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las etiquetas */
+.login-card label {
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+.login-card input[type="email"],
+.login-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de enviar */
+.login-card button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para los mensajes de error */
+.login-card p {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Estilos para el enlace de registro */
+.login-card a {
+    color: #007bff;
+}
+
+/* Estilos para el botón de Regresar a Home */
+.button-home {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Para quitar la subrayado del enlace */
+}
+
+.button-home:hover {
+    background-color: #0056b3;
+}
+
