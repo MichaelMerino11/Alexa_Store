@@ -45,8 +45,8 @@
     <div class="container">
         <div class="card">
             <h2><%= message %></h2>
-            <p><a href="viewProductsClient.jsp">Continuar Comprando</a></p>
-            <p><a href="viewCart.jsp">Ver Carrito</a></p>
+            <p><a class="btn" href="viewProductsClient.jsp">Continuar Comprando</a></p>
+            <p><a class="btn" href="viewCart.jsp">Ver Carrito</a></p>
         </div>
     </div>
 </body>

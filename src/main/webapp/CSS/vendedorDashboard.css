@@ -1,27 +1,75 @@
-/* Estilos para el título */
-h1 {
+/* vendedorDashboard.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-/* Estilos para la navegación */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 10px 0;
 }
 
 nav ul li a {
-    color: #007bff;
     text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
 }
 
-/* Estilos para el botón de cierre de sesión */
-button {
-    display: block;
-    margin: 20px auto;
+nav ul li a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+button.logout-btn {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.logout-btn:hover {
+    background-color: #ff3333;
+}
+
+button.logout-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+button.logout-btn a:hover {
+    color: white;
 }

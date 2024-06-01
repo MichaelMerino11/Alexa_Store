@@ -49,8 +49,8 @@
                 <button type="submit">Realizar Compra</button>
             </form>
             <h2><%= message %></h2>
+            <button class="return-button"><a href="clienteDashboard.jsp">Regresar al Dashboard</a></button>
         </div>
-            <button><a href="login.jsp">Regresar al login</a></button>
     </div>
 </body>
 </html>

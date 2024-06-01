@@ -1,68 +1,96 @@
-/* Estilos para el contenedor */
+/* checkout.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .container {
     width: 80%;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
-/* Estilos para la tarjeta de formulario */
 .card {
+    background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el formulario */
+.card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 form {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-label {
-    display: block;
+form label {
     margin-bottom: 5px;
+    color: #555;
 }
 
-input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
+form button {
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
-button[type="submit"]:hover {
-    background-color: #0056b3;
+form button:hover {
+    background-color: #45a049;
 }
 
 h2 {
-    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-/* Estilos para el botón de regreso */
-button {
-    display: block;
-    margin-top: 20px;
-    background-color: #f2f2f2;
-    color: #333;
-    padding: 10px 20px;
+.return-button {
+    background-color: #2196F3;
+    color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
 }
 
-button a {
-    color: #333;
+.return-button a {
+    color: white;
     text-decoration: none;
 }
 
-button a:hover {
-    text-decoration: underline;
+.return-button:hover {
+    background-color: #0b7dda;
+}
+
+.return-button a:hover {
+    text-decoration: none;
 }

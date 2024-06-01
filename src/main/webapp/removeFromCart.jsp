@@ -37,14 +37,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliminar del Carrito</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./CSS/removeFromCart.css">
 </head>
 <body>
     <div class="container">
         <div class="card">
             <h2><%= message %></h2>
-            <p><a href="viewCart.jsp">Volver al Carrito</a></p>
-            <p><a href="viewProductsClient.jsp">Continuar Comprando</a></p>
+            <p><a class="btn" href="viewCart.jsp">Volver al Carrito</a></p>
+            <p><a class="btn" href="viewProductsClient.jsp">Continuar Comprando</a></p>
         </div>
     </div>
 </body>
